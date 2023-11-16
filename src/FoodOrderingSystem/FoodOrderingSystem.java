@@ -18,7 +18,7 @@ public class FoodOrderingSystem extends JFrame{
 
     public FoodOrderingSystem(){
         btnOrder.addActionListener(e -> {
-            float total = 0;
+            float total = 0; //get total
 
             if (cPizza.isSelected()) {
                 total = total + 100;
